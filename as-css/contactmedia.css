@@ -1,0 +1,16 @@
+@media screen and (max-width:1000px) {
+   
+    .map-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-location{
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+        margin-top: 3rem;
+    }
+}

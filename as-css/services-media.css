@@ -1,0 +1,96 @@
+@media screen and (min-width:1000px) and (max-width:1130px) {
+    .june-14 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        /* width: 100vw;
+        height: 100vh; */
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+
+    #header {
+        display: block;
+        padding: 1rem 0rem;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar {
+        margin-top: 2rem;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    .three-services {
+        /* display: block; */
+        margin: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .three-services {
+        /* display: block; */
+
+    }
+
+    .service {
+        width: 90%;
+        overflow: hidden;
+        margin-bottom: 1rem;
+
+    }
+
+    .text-icon,
+    .about-date {
+        justify-content: flex-start;
+    }
+
+    .text-icon .icon .fa-solid {
+        height: 80px;
+        width: 80px;
+    }
+
+    /* fourbox */
+
+    .fourbox {
+        display: block;
+        margin: 5rem 3rem;
+
+    }
+
+    .fourbox .wrap {
+        align-items: center;
+        width: 100%;
+    }
+
+    .box-all {
+        margin: 1rem;
+    }
+
+    .partner-items .partner {
+        border: none;
+    }
+
+}
